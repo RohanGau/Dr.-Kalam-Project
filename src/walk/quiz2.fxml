@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="446.0" prefWidth="518.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="walk.Quiz2">
+   <children>
+      <AnchorPane layoutX="2.0" prefHeight="50.0" prefWidth="518.0" style="-fx-background-color: #FFCA6E;">
+         <children>
+            <Button fx:id="back" layoutX="7.0" layoutY="5.0" mnemonicParsing="false" onAction="#backtocategory" prefHeight="40.0" prefWidth="66.0" style="-fx-background-color: #ff8801;" text="BACK">
+               <effect>
+                  <Glow level="0.7">
+                     <input>
+                        <DropShadow height="29.9" radius="14.45" spread="0.09" width="29.9" />
+                     </input></Glow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="423.0" layoutY="14.0" text="2.5 HOURS ">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="7.0" prefHeight="40.0" prefWidth="297.0" text="CATEGORY: QUIZ 2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="308.0" layoutY="348.0" prefHeight="40.0" prefWidth="98.0" text="QUIZ" underline="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="reading" layoutX="297.0" layoutY="221.0" prefHeight="40.0" prefWidth="119.0" text="READING" underline="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="video1" layoutX="297.0" layoutY="107.0" prefHeight="40.0" prefWidth="98.0" text="VIDEO" underline="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="video" fitHeight="77.0" fitWidth="86.0" layoutX="103.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/video.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="read" fitHeight="77.0" fitWidth="86.0" layoutX="111.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/video.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quiz" fitHeight="77.0" fitWidth="86.0" layoutX="111.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/video.PNG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

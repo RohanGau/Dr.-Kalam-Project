@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="446.0" prefWidth="518.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Choose">
+   <children>
+      <AnchorPane prefHeight="49.0" prefWidth="518.0" style="-fx-background-color: #FFCA6E;">
+         <children>
+            <ImageView fx:id="choose" fitHeight="35.0" fitWidth="457.0" layoutX="61.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/choose.PNG" />
+               </image>
+            </ImageView>
+            <Button fx:id="backtoext" layoutY="4.0" mnemonicParsing="false" onAction="#backtoext" prefHeight="42.0" prefWidth="57.0" style="-fx-background-color: #ff8801;" text="BACK" textFill="#000000f3">
+               <effect>
+                  <Glow level="0.67">
+                     <input>
+                        <DropShadow height="44.72" radius="21.119999999999997" spread="0.14" width="41.76" />
+                     </input></Glow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+         </children></AnchorPane>
+      <ImageView fx:id="tech" fitHeight="42.0" fitWidth="385.0" layoutX="78.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/tech.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="shape" fitHeight="42.0" fitWidth="362.0" layoutX="78.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/shaping.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="champ" fitHeight="49.0" fitWidth="362.0" layoutX="78.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/champion.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="changing" fitHeight="41.0" fitWidth="362.0" layoutX="78.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/changing.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="again" fitHeight="43.0" fitWidth="362.0" layoutX="78.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/against.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="know" fitHeight="55.0" fitWidth="362.0" layoutX="78.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/know.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="walk" fitHeight="55.0" fitWidth="362.0" layoutX="78.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/walk.PNG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="518.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="change.Changing">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="518.0" style="-fx-background-color: #FFCA6E;">
+         <children>
+            <Button fx:id="back" layoutX="7.0" layoutY="5.0" mnemonicParsing="false" onAction="#backtocategory" prefHeight="40.0" prefWidth="66.0" style="-fx-background-color: #ff8801;" text="BACK">
+               <effect>
+                  <Glow level="0.7">
+                     <input>
+                        <DropShadow height="35.83" radius="16.6725" spread="0.1" width="32.86" />
+                     </input></Glow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="423.0" layoutY="14.0" text="2.5 HOURS ">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="7.0" prefHeight="40.0" prefWidth="297.0" text="CATEGORY:CHANGING GLOBAL ENVIRONMENT">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="quiz1" layoutX="189.0" layoutY="142.0" mnemonicParsing="false" onAction="#gotoquiz1" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #E8E4E3; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #F8BA33; -fx-border-width: 5;" text="QUIZ 1">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow height="35.83" radius="18.8975" spread="0.13" width="41.76" />
+         </effect>
+      </Button>
+      <Button fx:id="quiz2" layoutX="189.0" layoutY="263.0" mnemonicParsing="false" onAction="#gotoquiz2" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #E8E4E3; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #F8BA33; -fx-border-width: 5;" text="QUIZ 2">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow height="41.76" radius="19.6375" spread="0.1" width="38.79" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
